@@ -12,9 +12,6 @@
 		8D302BB01FCCA3DB00404607 /* Siec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D302BAE1FCCA3DB00404607 /* Siec.cpp */; };
 		8D302BB31FCCA42F00404607 /* Sciezka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D302BB11FCCA42F00404607 /* Sciezka.cpp */; };
 		8D302BB61FCCA48900404607 /* Lacze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D302BB41FCCA48900404607 /* Lacze.cpp */; };
-		8D302BBF1FCCA7CB00404607 /* storzGraf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D302BBD1FCCA7CB00404607 /* storzGraf.cpp */; };
-		8D302BC91FCCACD900404607 /* znajdzIdodajDoZlacza.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D302BC71FCCACD900404607 /* znajdzIdodajDoZlacza.cpp */; };
-		8D302BCC1FCCAE3600404607 /* glownaFunkcja.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D302BCA1FCCAE3600404607 /* glownaFunkcja.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,12 +37,8 @@
 		8D302BB21FCCA42F00404607 /* Sciezka.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sciezka.hpp; sourceTree = "<group>"; };
 		8D302BB41FCCA48900404607 /* Lacze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lacze.cpp; sourceTree = "<group>"; };
 		8D302BB51FCCA48900404607 /* Lacze.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Lacze.hpp; sourceTree = "<group>"; };
-		8D302BB81FCCA68600404607 /* Graf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graf.hpp; sourceTree = "<group>"; };
 		8D302BBB1FCCA74E00404607 /* Krawedz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Krawedz.hpp; sourceTree = "<group>"; };
-		8D302BBD1FCCA7CB00404607 /* storzGraf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = storzGraf.cpp; sourceTree = "<group>"; };
-		8D302BC71FCCACD900404607 /* znajdzIdodajDoZlacza.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = znajdzIdodajDoZlacza.cpp; sourceTree = "<group>"; };
-		8D302BCA1FCCAE3600404607 /* glownaFunkcja.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = glownaFunkcja.cpp; sourceTree = "<group>"; };
-		8D302BCB1FCCAE3600404607 /* glownaFunkcja.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = glownaFunkcja.hpp; sourceTree = "<group>"; };
+		8D3AFCA61FCD73D600BA3EEE /* dane.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dane.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +57,7 @@
 			children = (
 				8D302BA31FCCA2D000404607 /* Kruskal */,
 				8D302BA21FCCA2D000404607 /* Products */,
+				8D3AFCA61FCD73D600BA3EEE /* dane.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,19 +73,14 @@
 			isa = PBXGroup;
 			children = (
 				8D302BA41FCCA2D000404607 /* main.cpp */,
-				8D302BB81FCCA68600404607 /* Graf.hpp */,
 				8D302BAB1FCCA33900404607 /* Wezel.cpp */,
-				8D302BC71FCCACD900404607 /* znajdzIdodajDoZlacza.cpp */,
 				8D302BBB1FCCA74E00404607 /* Krawedz.hpp */,
 				8D302BAE1FCCA3DB00404607 /* Siec.cpp */,
 				8D302BB11FCCA42F00404607 /* Sciezka.cpp */,
-				8D302BBD1FCCA7CB00404607 /* storzGraf.cpp */,
 				8D302BB41FCCA48900404607 /* Lacze.cpp */,
 				8D302BB51FCCA48900404607 /* Lacze.hpp */,
 				8D302BB21FCCA42F00404607 /* Sciezka.hpp */,
 				8D302BAF1FCCA3DB00404607 /* Siec.hpp */,
-				8D302BCA1FCCAE3600404607 /* glownaFunkcja.cpp */,
-				8D302BCB1FCCAE3600404607 /* glownaFunkcja.hpp */,
 				8D302BAC1FCCA33900404607 /* Wezel.hpp */,
 			);
 			path = Kruskal;
@@ -158,10 +147,7 @@
 				8D302BB01FCCA3DB00404607 /* Siec.cpp in Sources */,
 				8D302BA51FCCA2D000404607 /* main.cpp in Sources */,
 				8D302BB31FCCA42F00404607 /* Sciezka.cpp in Sources */,
-				8D302BCC1FCCAE3600404607 /* glownaFunkcja.cpp in Sources */,
-				8D302BBF1FCCA7CB00404607 /* storzGraf.cpp in Sources */,
 				8D302BAD1FCCA33900404607 /* Wezel.cpp in Sources */,
-				8D302BC91FCCACD900404607 /* znajdzIdodajDoZlacza.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

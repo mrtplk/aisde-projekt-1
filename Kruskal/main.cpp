@@ -15,10 +15,11 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     //Wczytaj sieć z pliku
     ifstream ifs;
-    ifs.open("dane.txt", ifstream::in);
+    ifs.open("../dane.txt", ifstream::in);
 
     string txt;
     ifs >> txt;
+    cout<<"dxfdsfsf";
     cout << txt;
 
     //Wybierz alg
