@@ -9,7 +9,13 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    //Wczytaj sieć z pliku
+
+    //Wybierz alg
+
+    //Uruchom algorytm
+
+    //Wyświetl wyniki
+
     return 0;
 }
